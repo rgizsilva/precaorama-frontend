@@ -40,9 +40,9 @@
     "@radix-ui/react-tooltip": "^1.2.8",
     "@tailwindcss/vite": "^4.1.8",
     "@tanstack/react-query": "^5.83.0",
-    "@tanstack/react-router": "^1.170.9",
-    "@tanstack/react-start": "^1.168.16",
-    "@tanstack/router-plugin": "^1.168.12",
+    "@tanstack/react-router": "^1.120.0",
+    "@tanstack/react-start": "1.120.0",
+    "@tanstack/router-plugin": "^1.120.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
@@ -64,7 +64,7 @@
     "vite-tsconfig-paths": "^6.0.2",
     "zod": "^3.24.2",
     "vite": "^6.3.5",
-    "vinxi": "0.5.1"
+  "vinxi": "0.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
@@ -80,7 +80,8 @@
     "globals": "^15.15.0",
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.56.1"
+    "typescript-eslint": "^8.56.1",
+    "vite": "^6.3.5"
   },
   "engines": {
     "node": ">=20"
