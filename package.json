@@ -63,7 +63,8 @@
     "vaul": "^1.1.2",
     "vite-tsconfig-paths": "^6.0.2",
     "zod": "^3.24.2",
-    "vite": "^6.3.5"
+    "vite": "^6.3.5",
+    "vinxi": "0.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.32.0",
@@ -79,8 +80,7 @@
     "globals": "^15.15.0",
     "prettier": "^3.7.3",
     "typescript": "^5.8.3",
-    "typescript-eslint": "^8.56.1",
-    "vite": "^7.3.1"
+    "typescript-eslint": "^8.56.1"
   },
   "engines": {
     "node": ">=20"
