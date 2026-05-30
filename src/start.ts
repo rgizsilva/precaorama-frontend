@@ -1,7 +1,6 @@
-/// <reference types="vinxi/types/server" />
-import { createStartHandler, defaultStreamHandler } from '@tanstack/react-start/server'
+import { createStart } from '@tanstack/react-start'
 import { getRouter } from './router'
 
-export default createStartHandler({
+export const startInstance = createStart({
   createRouter: getRouter,
-})(defaultStreamHandler)
+})

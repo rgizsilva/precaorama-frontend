@@ -2,11 +2,11 @@ services:
   - type: web
     name: precaorama-frontend
     runtime: node
-    buildCommand: bun install && node node_modules/vinxi/bin/cli.mjs build
-    startCommand: node .output/server/index.mjs
+    buildCommand: npm install --legacy-peer-deps && npm run build
+    startCommand: node dist/server/server.js
     envVars:
       - key: NODE_VERSION
-        value: "20"
+        value: "22"
       - key: VITE_API_URL
-        sync: false   # preencha manualmente no painel do Render
+        sync: false
     autoDeploy: true
