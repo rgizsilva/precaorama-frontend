@@ -2,7 +2,7 @@ services:
   - type: web
     name: precaorama-frontend
     runtime: node
-    buildCommand: bun install && ./node_modules/.bin/vinxi build
+    buildCommand: bun install && bun run build
     startCommand: node .output/server/index.mjs
     envVars:
       - key: NODE_VERSION
