@@ -1,17 +1,18 @@
-import { defineConfig } from '@tanstack/react-start/plugin/vite'
+import { tanstackStart } from '@tanstack/react-start/plugin/vite'
+import { defineConfig } from 'vite'
 import tailwindcss from '@tailwindcss/vite'
 import tsConfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
-  tsr: {
-    autoCodeSplitting: true,
-  },
-  vite: {
-    plugins: [
-      tailwindcss(),
-      tsConfigPaths({
-        projects: ['./tsconfig.json'],
-      }),
-    ],
-  },
+  plugins: [
+    tanstackStart({
+      tsr: {
+        autoCodeSplitting: true,
+      },
+    }),
+    tailwindcss(),
+    tsConfigPaths({
+      projects: ['./tsconfig.json'],
+    }),
+  ],
 })
