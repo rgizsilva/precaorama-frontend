@@ -3,7 +3,7 @@ services:
     name: precaorama-frontend
     runtime: node
     buildCommand: npm install --legacy-peer-deps && npm run build
-    startCommand: node dist/server/server.js
+    startCommand: node .output/server/index.mjs
     envVars:
       - key: NODE_VERSION
         value: "22"
