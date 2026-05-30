@@ -42,6 +42,8 @@
     "@tanstack/react-query": "^5.83.0",
     "@tanstack/react-router": "1.120.0",
     "@tanstack/react-start": "1.120.0",
+    "@tanstack/router-core": "1.119.0",
+    "@tanstack/router-generator": "1.120.0",
     "@tanstack/router-plugin": "1.120.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
